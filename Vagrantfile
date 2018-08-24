@@ -4,7 +4,7 @@
 Vagrant.configure(2) do |config|
 
   # VM Image - Ubuntu v14.04
-  config.vm.box = "centos/7"
+  config.vm.box = "kali/2.0"
 
   # VM Resources
   config.vm.provider "virtualbox" do |v|
